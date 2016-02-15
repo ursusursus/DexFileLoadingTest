@@ -26,6 +26,16 @@ public class MainActivity extends AppCompatActivity {
 		Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
 		setSupportActionBar(toolbar);
 
+//		// Vygeneruje class file zo sourcu
+//		javac -source 1.7 -target 1.7 HelloWorld.java
+//		javac -source 1.7 -target 1.7 FooBar.java
+//
+//	 	// Vytvori .jar
+//		jar cvf lib.jar FooBar.class HelloWorld.class
+//
+// 		// Vygeneruje dex file
+//		dx --dex --output=lib.dex lib.jar
+
 		foo();
 	}
 
